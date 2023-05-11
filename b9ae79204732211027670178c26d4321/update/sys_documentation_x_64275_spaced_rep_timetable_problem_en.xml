@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="problem" label="Problem" language="en" table="x_64275_spaced_rep_timetable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>problem</element>
+            <help/>
+            <hint/>
+            <label>Problem</label>
+            <language>en</language>
+            <name>x_64275_spaced_rep_timetable</name>
+            <plural>Problems</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-11 03:34:57</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Problem</sys_name>
+            <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+            <sys_update_name>sys_documentation_x_64275_spaced_rep_timetable_problem_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-11 03:34:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

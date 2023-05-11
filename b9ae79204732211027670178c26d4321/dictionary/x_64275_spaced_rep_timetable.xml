@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e208e6c4732211027670178c26d43d2" label="Timetable" max_length="40" name="x_64275_spaced_rep_timetable" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Problem" mandatory="true" max_length="32" name="problem" reference="x_64275_spaced_rep_problem" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Revision Date" max_length="40" name="revision_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="revision_1" label="Revision Type" max_length="40" name="revision_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Revision 1" value="revision_1"/>
+                <element inactive_on_update="false" label="Revision 2" value="revision_2"/>
+                <element inactive_on_update="false" label="Revision 3" value="revision_3"/>
+                <element inactive_on_update="false" label="Revision 4" value="revision_4"/>
+                <element inactive_on_update="false" label="Revision 5" value="revision_5"/>
+                <element inactive_on_update="false" label="Revision 6" value="revision_6"/>
+                <element inactive_on_update="false" label="Revision 7" value="revision_7"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="problem"/>
+        </index>
+    </element>
+</database>
