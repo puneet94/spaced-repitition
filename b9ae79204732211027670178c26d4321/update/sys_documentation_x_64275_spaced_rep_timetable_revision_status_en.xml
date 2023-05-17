@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Opportunity" language="en" table="x_64275_spaced_rep_problem">
+    <sys_documentation element="revision_status" label="Revision Status" language="en" table="x_64275_spaced_rep_timetable">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>revision_status</element>
             <help/>
             <hint/>
-            <label>Opportunity</label>
+            <label>Revision Status</label>
             <language>en</language>
-            <name>x_64275_spaced_rep_problem</name>
-            <plural>Opportunities</plural>
+            <name>x_64275_spaced_rep_timetable</name>
+            <plural>Revision Status</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-11 03:31:33</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Opportunity</sys_name>
+            <sys_created_on>2023-05-17 01:39:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Revision Status</sys_name>
             <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
             <sys_policy/>
             <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
-            <sys_update_name>sys_documentation_x_64275_spaced_rep_problem__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_64275_spaced_rep_timetable_revision_status_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-17 01:31:11</sys_updated_on>
+            <sys_updated_on>2023-05-17 01:39:23</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -3,6 +3,15 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Problem" mandatory="true" max_length="32" name="problem" reference="x_64275_spaced_rep_problem" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Revision Date" max_length="40" name="revision_date" type="glide_date"/>
+        <element choice="1" label="Revision Status" max_length="40" name="revision_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed Very Easy" sequence="1" value="cve"/>
+                <element inactive_on_update="false" label="Completed Easy" sequence="2" value="ce"/>
+                <element inactive_on_update="false" label="Completed Medium" sequence="3" value="cm"/>
+                <element inactive_on_update="false" label="Completed Hard" sequence="4" value="ch"/>
+                <element inactive_on_update="false" label="Completed Very Hard" sequence="5" value="cvh"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="revision_1" label="Revision Type" max_length="40" name="revision_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Revision 1" value="revision_1"/>
