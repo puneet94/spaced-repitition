@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_64275_spaced_rep.Data_Entry</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Data_Entry</name>
+        <script><![CDATA[var Data_Entry = Class.create();
+Data_Entry.prototype = {
+    initialize: function() {
+    },
+	enterDataLCQuestions: function(){
+		var data = JSON.parse(gs.getProperty("x_64275_spaced_rep.leetcode_questions"));
+		for(var i=0;i<data.length;i++){
+			var x_64275_spaced_rep_problem = new GlideRecord("x_64275_spaced_rep_problem");
+			x_64275_spaced_rep_problem.initialize();
+			x_64275_spaced_rep_problem.name = data[i].textVal;
+			x_64275_spaced_rep_problem.url = data[i].linkVal;
+			x_64275_spaced_rep_problem.insert();
+		}
+	},
+	enterDataGFGQuestions: function(){
+		var data = JSON.parse(gs.getProperty("x_64275_spaced_rep.gfg_questions"));
+		for(var i=0;i<data.length;i++){
+			var x_64275_spaced_rep_problem = new GlideRecord("x_64275_spaced_rep_problem");
+			x_64275_spaced_rep_problem.initialize();
+			x_64275_spaced_rep_problem.name = data[i].textVal;
+			x_64275_spaced_rep_problem.url = data[i].linkVal;
+			x_64275_spaced_rep_problem.insert();
+		}
+	},
+    type: 'Data_Entry'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 01:33:06</sys_created_on>
+        <sys_id>caac58e24772211027670178c26d43c6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Data_Entry</sys_name>
+        <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+        <sys_update_name>sys_script_include_caac58e24772211027670178c26d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 03:34:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

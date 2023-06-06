@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e86ff16c4732211027670178c26d430d" label="Opportunity" max_length="40" name="x_64275_spaced_rep_problem" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="250" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="URL" max_length="1024" name="url" type="url"/>
+    </element>
+</database>

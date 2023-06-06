@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Spaced Repitition Timetable</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 03:35:47</sys_created_on>
+        <sys_id>aa5082ac4732211027670178c26d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Spaced Repitition Timetable</sys_name>
+        <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+        <sys_update_name>sys_sg_data_item_aa5082ac4732211027670178c26d43f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 03:35:47</sys_updated_on>
+        <table>x_64275_spaced_rep_timetable</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa5082ac4732211027670178c26d43f0"/>
+</record_update>
