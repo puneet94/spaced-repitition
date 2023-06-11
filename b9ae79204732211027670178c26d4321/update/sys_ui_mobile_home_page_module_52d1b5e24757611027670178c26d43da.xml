@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_mobile_home_page_module">
+    <sys_ui_mobile_home_page_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#81878e</background_color>
+        <content_style>light_content</content_style>
+        <icon/>
+        <image/>
+        <module/>
+        <roles/>
+        <subtitle/>
+        <sys_class_name>sys_ui_mobile_home_page_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-11 04:12:01</sys_created_on>
+        <sys_id>52d1b5e24757611027670178c26d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Average</sys_name>
+        <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_module_52d1b5e24757611027670178c26d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-11 04:12:01</sys_updated_on>
+        <title>Average</title>
+    </sys_ui_mobile_home_page_module>
+</record_update>
