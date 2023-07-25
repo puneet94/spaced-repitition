@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>revision_before_today</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Revision Beore Today</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var query = "revision_date<=javascript:gs.endOfToday()^revision_type!=revision_1^revision_status=";
+	
+	data.list = [];
+	data.count=0;
+	var x_64275_spaced_rep_timetable = new GlideRecord("x_64275_spaced_rep_timetable");
+	 x_64275_spaced_rep_timetable.addEncodedQuery(query);
+	x_64275_spaced_rep_timetable.orderBy("revision_date");
+	x_64275_spaced_rep_timetable.query();
+	while( x_64275_spaced_rep_timetable.next()){
+		data.count++;
+		data.list.push({
+			name: x_64275_spaced_rep_timetable.problem.name.toString(),
+			url: x_64275_spaced_rep_timetable.problem.url.toString(),
+			date: x_64275_spaced_rep_timetable.revision_date.toString()
+		});
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 01:22:10</sys_created_on>
+        <sys_id>56172a184710311027670178c26d43b6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Revision Beore Today</sys_name>
+        <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+        <sys_update_name>sp_widget_56172a184710311027670178c26d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 01:54:04</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template -->
+  <h2>
+    Revision Before Today: {{data.count}}
+  </h2>
+  <div class="container-fluid">
+
+    <div class="list-group">
+      <div class="list-group-item  list-group-item-info" ng-repeat="item in data.list">
+      	<h4>{{item.name}}</h4>
+        <a href="{{item.url}}" target="_blank">
+        
+          <h5>{{item.url}}</h5>
+      </a>  
+        <p>{{item.date}}</p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
