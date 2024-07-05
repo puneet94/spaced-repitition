@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_channel">
+    <sys_cs_channel action="INSERT_OR_UPDATE">
+        <enable_notification>true</enable_notification>
+        <icon/>
+        <live_agent_only>false</live_agent_only>
+        <name>teams test</name>
+        <secure>false</secure>
+        <sentiment_enabled>false</sentiment_enabled>
+        <store_app_page_link/>
+        <synchronous>false</synchronous>
+        <sys_class_name>sys_cs_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 10:29:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>274f5d0947a0021027670178c26d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>teams test</sys_name>
+        <sys_package display_value="Spaced Repitition" source="x_64275_spaced_rep">b9ae79204732211027670178c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spaced Repitition">b9ae79204732211027670178c26d4321</sys_scope>
+        <sys_update_name>sys_cs_channel_274f5d0947a0021027670178c26d4395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 10:29:50</sys_updated_on>
+        <timeout/>
+        <type>messaging</type>
+        <typing_indicators_enabled>false</typing_indicators_enabled>
+        <whitelisted>true</whitelisted>
+    </sys_cs_channel>
+</record_update>
